@@ -1,47 +1,31 @@
-/* Estilos básicos */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header, nav, main, footer {
-    padding: 20px;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  main {
-    background-color: #f9f9f9;
-  }
-  
-  .card {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
+spotify-wrapper {
     text-align: center;
+    padding: 20px;
+    background-color: #1DB954;
+    color: #FFFFFF;
+  }
+  
+  .spotify-logo {
+    width: 100px;
+  }
+  
+  .spotify-heading {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+  
+  .spotify-description {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .spotify-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: #1DB954;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
   }
